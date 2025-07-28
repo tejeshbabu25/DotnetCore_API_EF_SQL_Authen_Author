@@ -1,0 +1,80 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files.
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific folders
+.vs/
+.vscode/
+.idea/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+TestResults/
+Generated\ Files/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# .NET Core
+project.lock.json
+project.assets.json
+*.deps.json
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+
+# EF Core Migrations
+Migrations/
+
+# Logs
+*.log
+
+# Secrets
+secrets.json
+appsettings.*.json
+appsettings.Development.json
+*.pfx
+
+# Coverage results
+coverage/
+coverage*.json
+coverage*.xml
+coverage*.info
+*.lcov
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Other
+_ReSharper*/
+*.DotSettings.user
+node_modules/
+npm-debug.log
+.env
+.env.*
+*.tsbuildinfo
+
+# Local history for IDEs
+.history/

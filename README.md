@@ -14,3 +14,8 @@ Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server,
 - and also testability
 - classes are injected into program.cs class for instantiating
 - for eg., services.AddScoped<IMyServices,MyServices>();
+
+# Adding EF Core Migrations
+- open Nuget manager console, run below commands
+- Add-Migration "Intitial Migration" -- to add initial migrations -- and it adds a new Migrations folder to the solution
+- Update-Database -- reads the migrations created in above step and creates the Db on SQL Server

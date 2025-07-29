@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("USTrails.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a375b45bfba64deb8f49051e741ee7e6f69cc0bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e15b470a8aef7989a28c7c447e614ea56bdc6ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("USTrails.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("USTrails.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

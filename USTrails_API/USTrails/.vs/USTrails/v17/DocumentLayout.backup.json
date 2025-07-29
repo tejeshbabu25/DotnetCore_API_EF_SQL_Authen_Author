@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Program.cs",
+              "RelativeDocumentMoniker": "USTrails.API\\Program.cs",
+              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Program.cs",
+              "RelativeToolTip": "USTrails.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:15:41.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\appsettings.json",
+              "RelativeDocumentMoniker": "USTrails.API\\appsettings.json",
+              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\appsettings.json",
+              "RelativeToolTip": "USTrails.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-29T01:08:10.58Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

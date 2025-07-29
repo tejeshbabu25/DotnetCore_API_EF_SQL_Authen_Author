@@ -19,3 +19,7 @@ Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server,
 - open Nuget manager console, run below commands
 - Add-Migration "Intitial Migration" -- to add initial migrations -- and it adds a new Migrations folder to the solution
 - Update-Database -- reads the migrations created in above step and creates the Db on SQL Server
+
+# Create a new Controller and Endpoints for Regions domain
+- GET/PUT/POST/DELETE
+

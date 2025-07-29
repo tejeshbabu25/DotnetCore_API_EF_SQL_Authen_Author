@@ -25,3 +25,19 @@ Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server,
 -- api/regions
 -- api/regions/{id}
 
+# DTOs and Domain Models
+- DTOs are Data transfer options
+- used to transfer data between different layers
+- contain a subset of the properties in the domain model - eg to transfer data over the network
+- order of data transfer is as below
+- Client -> DTOs -> API -> Domain Model -> Database
+- As you can see , we always send DTO's to the client, not the domain model
+- Also we can decide what we want to expose to user instead of all properties in domain model
+- Using DTO's decouples the domain models from view layer of API
+
+# Advantages of DTOs
+- Separation of concern
+- Peformance
+- Security
+- Versioning
+

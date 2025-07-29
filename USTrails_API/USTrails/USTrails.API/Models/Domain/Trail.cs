@@ -1,6 +1,6 @@
 ﻿namespace USTrails.API.Models.Domain
 {
-    public class Trailcs
+    public class Trail
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

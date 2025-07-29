@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\models\\domain\\trailcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\models\\domain\\trailcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\models\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\models\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trailcs.cs",
+              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\Domain\\Trailcs.cs",
+              "RelativeDocumentMoniker": "USTrails.API\\Models\\Domain\\Trailcs.cs",
+              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\Domain\\Trailcs.cs",
+              "RelativeToolTip": "USTrails.API\\Models\\Domain\\Trailcs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T00:43:38.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\Domain\\Region.cs",
+              "RelativeDocumentMoniker": "USTrails.API\\Models\\Domain\\Region.cs",
+              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\Domain\\Region.cs",
+              "RelativeToolTip": "USTrails.API\\Models\\Domain\\Region.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T00:42:22.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Difficulty.cs",
+              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\Domain\\Difficulty.cs",
+              "RelativeDocumentMoniker": "USTrails.API\\Models\\Domain\\Difficulty.cs",
+              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\Domain\\Difficulty.cs",
+              "RelativeToolTip": "USTrails.API\\Models\\Domain\\Difficulty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T00:41:39.857Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

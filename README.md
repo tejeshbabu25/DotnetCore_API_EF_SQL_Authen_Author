@@ -22,4 +22,6 @@ Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server,
 
 # Create a new Controller and Endpoints for Regions domain
 - GET/PUT/POST/DELETE
+-- api/regions
+-- api/regions/{id}
 

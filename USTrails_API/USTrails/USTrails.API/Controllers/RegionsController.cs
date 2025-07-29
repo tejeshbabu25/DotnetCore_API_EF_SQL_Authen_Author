@@ -23,5 +23,19 @@ namespace USTrails.API.Controllers
             var regions = dbContext.Regions.ToList();
             return Ok(regions);
         }
+
+        // Get Regions by Id
+        // GET : api/regions/{id}
+        [HttpGet]
+        [Route("{id:Guid}")]
+        public IActionResult GetById([FromRoute]Guid id) 
+        {
+            //var region = dbContext.Regions.Find(id); // Method 1
+
+            var region = dbContext.Regions.FirstOrDefault(x=>x.Id == id); // Method 2
+
+            if (region == null) { return NotFound(); }
+            return Ok(region);
+        }
     }
 }

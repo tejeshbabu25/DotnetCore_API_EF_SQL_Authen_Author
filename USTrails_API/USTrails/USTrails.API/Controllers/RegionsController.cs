@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata.Ecma335;
+using USTrails.API.Data;
 using USTrails.API.Models.Domain;
 
 namespace USTrails.API.Controllers
@@ -9,28 +10,17 @@ namespace USTrails.API.Controllers
     [ApiController]
     public class RegionsController : ControllerBase
     {
+        private readonly USTrailsDbContext dbContext;
+
+        public RegionsController(USTrailsDbContext dbContext)
+        {
+            this.dbContext = dbContext;
+        }
         //GET : //api/regions
         [HttpGet]
         public IActionResult GetAll()
         {
-            var regions = new List<Region>
-            {
-                new Region
-                {
-                    Id = Guid.NewGuid(),
-                    Name = "Half Dome - Yosemite Region",
-                    Code = "HDY",
-                    RegionImageUrl = "https://images.app.goo.gl/XCfypya2UxS9bC4k7"
-                },
-                new Region
-                {
-                    Id = Guid.NewGuid(),
-                    Name = "Angel's Landing Region",
-                    Code = "ALR",
-                    RegionImageUrl = "https://images.app.goo.gl/MUxaLfkCHK6xrznA9"
-                }
-            };
-            
+            var regions = dbContext.Regions.ToList();
             return Ok(regions);
         }
     }

@@ -68,3 +68,5 @@ Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server,
 - assuming we had to switch datasource from SQLRegionRepository to InMemory datasource,all we have to do is create a InMemoryRegionRepository
 - Implement IRegionRepository
 - update in program.cs by replacing builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>() with builder.Services.AddScoped<IRegionRepository, InMemoryRegionRepository>();
+
+- Implemeted all methods using Repository Design Pattern

@@ -56,8 +56,10 @@ namespace USTrails.API.Controllers
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             // Get regions domain model from Database
-           // var region = dbContext.Regions.FindAsync(id); // Method 1
-            var region = await dbContext.Regions.FirstOrDefaultAsync(x => x.Id == id); // Method 2
+            // var region = dbContext.Regions.FindAsync(id); // Method 1
+            // var region = await dbContext.Regions.FirstOrDefaultAsync(x => x.Id == id); // Method 2
+            //using repositoy
+            var region = await regionRepository.GetByIdAsync(id);
 
             //Map to region domain model to region DTOs
             var regionDto = new RegionDto
@@ -86,8 +88,7 @@ namespace USTrails.API.Controllers
             };
 
             // Use Domain model to create Region
-            await dbContext.Regions.AddAsync(regionDomainModel);
-            await dbContext.SaveChangesAsync(); // Actually saves the changes to SQL server;
+            regionDomainModel = await regionRepository.CreateAsync(regionDomainModel);
 
             //Map Domain Model back to DTO since we want to send this to client to show the new entry that was created
             var regionDto = new RegionDto
@@ -98,7 +99,7 @@ namespace USTrails.API.Controllers
                 RegionImageUrl = regionDomainModel.RegionImageUrl
             };
 
-            return CreatedAtAction(nameof(GetById), new { id = regionDomainModel.Id }, regionDto); // nameof(GetById) = this is used to call the GetById method above my passing the id that was just created and show it to the user
+            return CreatedAtAction(nameof(GetById), new { id = regionDto.Id }, regionDto); // nameof(GetById) = this is used to call the GetById method above my passing the id that was just created and show it to the user
         }
 
 
@@ -108,16 +109,18 @@ namespace USTrails.API.Controllers
         [Route("{id:Guid}")]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
         {
-            // check if region exists
-            var regionDomainModel = await dbContext.Regions.FirstOrDefaultAsync(x => x.Id == id);
+            // Map DTO to Domain model as repository connects to database
+            var regionDomainModel = new Region
+            {
+                Code = updateRegionRequestDto.Code,
+                Name = updateRegionRequestDto.Name,
+                RegionImageUrl = updateRegionRequestDto.RegionImageUrl
+            };
+
+            // check if region exists by calling regionRepository
+            regionDomainModel = await regionRepository.UpdateAsync(id,regionDomainModel);
+
             if (regionDomainModel == null) { return NotFound(); }
-
-            // Map DTO to Domain Model
-            regionDomainModel.Code = updateRegionRequestDto.Code;
-            regionDomainModel.Name = updateRegionRequestDto.Name;
-            regionDomainModel.RegionImageUrl = updateRegionRequestDto.RegionImageUrl;
-
-            await dbContext.SaveChangesAsync();
 
             // Map Domain Model to DTO
             var regionDto = new RegionDto
@@ -137,12 +140,8 @@ namespace USTrails.API.Controllers
         [Route("{id:Guid}")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
-            var regionDomainModel = await dbContext.Regions.FirstOrDefaultAsync(x => x.Id == id);
+            var regionDomainModel = await regionRepository.DeleteAsync(id);
             if (regionDomainModel == null) { return NotFound(); }
-
-            //Delete region
-            dbContext.Regions.Remove(regionDomainModel);
-            await dbContext.SaveChangesAsync();
 
             //return deleted region back
             // Map Domain Model to DTO

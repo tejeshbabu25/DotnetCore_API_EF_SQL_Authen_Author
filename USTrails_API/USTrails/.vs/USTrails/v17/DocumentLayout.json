@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\models\\dto\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\models\\dto\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\models\\dto\\updateregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\models\\dto\\updateregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\models\\dto\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\models\\dto\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\migrations\\20250729012214_intitial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "UpdateRegionRequestDto.cs",
+              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\DTO\\UpdateRegionRequestDto.cs",
+              "RelativeDocumentMoniker": "USTrails.API\\Models\\DTO\\UpdateRegionRequestDto.cs",
+              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\DTO\\UpdateRegionRequestDto.cs",
+              "RelativeToolTip": "USTrails.API\\Models\\DTO\\UpdateRegionRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T02:35:40.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AddRegionRequestDto.cs",
               "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\DTO\\AddRegionRequestDto.cs",
               "RelativeDocumentMoniker": "USTrails.API\\Models\\DTO\\AddRegionRequestDto.cs",
@@ -51,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Region.cs",
               "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\Domain\\Region.cs",
               "RelativeDocumentMoniker": "USTrails.API\\Models\\Domain\\Region.cs",
               "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\Domain\\Region.cs",
               "RelativeToolTip": "USTrails.API\\Models\\Domain\\Region.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T02:10:11.637Z",
               "EditorCaption": ""
@@ -70,14 +87,14 @@
               "RelativeDocumentMoniker": "USTrails.API\\Controllers\\RegionsController.cs",
               "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Controllers\\RegionsController.cs",
               "RelativeToolTip": "USTrails.API\\Controllers\\RegionsController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFgAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAuwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T01:29:54.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "20250729012214_Intitial Migration.cs",
               "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Migrations\\20250729012214_Intitial Migration.cs",
               "RelativeDocumentMoniker": "USTrails.API\\Migrations\\20250729012214_Intitial Migration.cs",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Program.cs",
               "RelativeDocumentMoniker": "USTrails.API\\Program.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\appsettings.json",
               "RelativeDocumentMoniker": "USTrails.API\\appsettings.json",

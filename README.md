@@ -25,6 +25,8 @@ Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server,
 -- api/regions
 -- api/regions/{id}
 -- POST : api/regions
+-- PUT : api/regions/{id}
+-- DELETE : api/regions/{id}
 
 # DTOs and Domain Models
 - DTOs are Data transfer options

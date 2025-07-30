@@ -47,3 +47,6 @@ Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server,
 # Asynchronous Programming
 - in a tranditional synchronous programing - program executon is blocked, leading to poor performance
 - So , we use Asynchronous Programming using Async/await keywords and wrapping return type Task keyword
+- also using appropriate methods that support async funtionality like SaveChangesAsync,FirstOrDefaultAsync,AddAsync,FindAsync
+
+

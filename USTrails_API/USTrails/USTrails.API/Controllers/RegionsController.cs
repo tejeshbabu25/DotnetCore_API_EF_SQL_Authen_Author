@@ -6,6 +6,7 @@ using System.Reflection.Metadata.Ecma335;
 using USTrails.API.Data;
 using USTrails.API.Models.Domain;
 using USTrails.API.Models.DTO;
+using USTrails.API.Repositories;
 
 namespace USTrails.API.Controllers
 {
@@ -14,10 +15,12 @@ namespace USTrails.API.Controllers
     public class RegionsController : ControllerBase
     {
         private readonly USTrailsDbContext dbContext;
+        private readonly IRegionRepository regionRepository;
 
-        public RegionsController(USTrailsDbContext dbContext)
+        public RegionsController(USTrailsDbContext dbContext,IRegionRepository regionRepository)
         {
             this.dbContext = dbContext;
+            this.regionRepository = regionRepository;
         }
 
 
@@ -26,7 +29,7 @@ namespace USTrails.API.Controllers
         public async Task<IActionResult> GetAll()
         {
             // Get data from database - domain models
-            var regions = await dbContext.Regions.ToListAsync();
+            var regions = await regionRepository.GetAllAsync();
 
             //Map Domain Models to DTOs
 

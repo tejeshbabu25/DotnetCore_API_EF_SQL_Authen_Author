@@ -49,4 +49,22 @@ Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server,
 - So , we use Asynchronous Programming using Async/await keywords and wrapping return type Task keyword
 - also using appropriate methods that support async funtionality like SaveChangesAsync,FirstOrDefaultAsync,AddAsync,FindAsync
 
+# Repository Pattern
+- Design Pattern to separate the data access layer from the application
+- Provides interface without exposing implementation
+- Helps create abstraction
+-- ideal flow --> Controller -> Repository(accessed by DbContext) -> Database
+-- Benefits
+    - Decoupling
+    - Consistency
+    - Performence
+    - Switching multiple data sources
 
+- In our project we created a IRegionRepository with GetAllAsync interface definition
+- Then created a SQLRegionRepository class to implement IRegionRepository 
+- Then went back controller and injected IRegionRepository in constructor and called the implementation using IRegionRepository method 
+- also added builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>(); in program.cs which will ensure everytime a IregionRepository is called,its fed with SQLRegionRepository implementation
+
+- assuming we had to switch datasource from SQLRegionRepository to InMemory datasource,all we have to do is create a InMemoryRegionRepository
+- Implement IRegionRepository
+- update in program.cs by replacing builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>() with builder.Services.AddScoped<IRegionRepository, InMemoryRegionRepository>();

@@ -70,3 +70,11 @@ Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server,
 - update in program.cs by replacing builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>() with builder.Services.AddScoped<IRegionRepository, InMemoryRegionRepository>();
 
 - Implemeted all methods using Repository Design Pattern
+
+# Automapper
+- object to object mapping
+- Simplification
+- Map DTOs and Domain Models and Vice-versa in ASP.Net Core application
+- Install Automapper from Nuget manager
+- create mapping profiles
+ 

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
@@ -16,11 +17,13 @@ namespace USTrails.API.Controllers
     {
         private readonly USTrailsDbContext dbContext;
         private readonly IRegionRepository regionRepository;
+        private readonly IMapper mapper;
 
-        public RegionsController(USTrailsDbContext dbContext,IRegionRepository regionRepository)
+        public RegionsController(USTrailsDbContext dbContext,IRegionRepository regionRepository,IMapper mapper)
         {
             this.dbContext = dbContext;
             this.regionRepository = regionRepository;
+            this.mapper = mapper;
         }
 
 
@@ -32,18 +35,7 @@ namespace USTrails.API.Controllers
             var regions = await regionRepository.GetAllAsync();
 
             //Map Domain Models to DTOs
-
-            var regionsDto = new List<RegionDto>();
-            foreach (var region in regions)
-            {
-                regionsDto.Add(new RegionDto()
-                {
-                    Id = region.Id,
-                    Code = region.Code,
-                    Name = region.Name,
-                    RegionImageUrl = region.RegionImageUrl
-                });
-            }
+            var regionsDto = mapper.Map<List<RegionDto>>(regions);
 
             //Return DTOs
             return Ok(regionsDto);
@@ -60,18 +52,12 @@ namespace USTrails.API.Controllers
             // var region = await dbContext.Regions.FirstOrDefaultAsync(x => x.Id == id); // Method 2
             //using repositoy
             var region = await regionRepository.GetByIdAsync(id);
+            if (region == null) { return NotFound(); }
 
             //Map to region domain model to region DTOs
-            var regionDto = new RegionDto
-            {
-                Id = region.Id,
-                Code = region.Code,
-                Name = region.Name,
-                RegionImageUrl = region.RegionImageUrl
-            };
+            var regionsDto = mapper.Map<RegionDto>(region);
 
-            if (region == null) { return NotFound(); }
-            return Ok(region);
+            return Ok(regionsDto);
         }
 
         // POST to create a new region
@@ -80,24 +66,14 @@ namespace USTrails.API.Controllers
         public async Task<IActionResult> Create([FromBody] AddRegionRequestDto addRegionRequestDto)
         {
             // Map DTO to Domain Model
-            var regionDomainModel = new Region
-            {
-                Code = addRegionRequestDto.Code,
-                Name = addRegionRequestDto.Name,
-                RegionImageUrl = addRegionRequestDto.RegionImageUrl
-            };
+            var regionDomainModel = mapper.Map<Region>(addRegionRequestDto);
 
             // Use Domain model to create Region
             regionDomainModel = await regionRepository.CreateAsync(regionDomainModel);
 
             //Map Domain Model back to DTO since we want to send this to client to show the new entry that was created
-            var regionDto = new RegionDto
-            {
-                Id = regionDomainModel.Id,
-                Code = regionDomainModel.Code,
-                Name = regionDomainModel.Name,
-                RegionImageUrl = regionDomainModel.RegionImageUrl
-            };
+
+            var regionDto = mapper.Map<RegionDto>(regionDomainModel);
 
             return CreatedAtAction(nameof(GetById), new { id = regionDto.Id }, regionDto); // nameof(GetById) = this is used to call the GetById method above my passing the id that was just created and show it to the user
         }
@@ -110,12 +86,7 @@ namespace USTrails.API.Controllers
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
         {
             // Map DTO to Domain model as repository connects to database
-            var regionDomainModel = new Region
-            {
-                Code = updateRegionRequestDto.Code,
-                Name = updateRegionRequestDto.Name,
-                RegionImageUrl = updateRegionRequestDto.RegionImageUrl
-            };
+            var regionDomainModel = mapper.Map<Region>(updateRegionRequestDto);
 
             // check if region exists by calling regionRepository
             regionDomainModel = await regionRepository.UpdateAsync(id,regionDomainModel);
@@ -123,14 +94,7 @@ namespace USTrails.API.Controllers
             if (regionDomainModel == null) { return NotFound(); }
 
             // Map Domain Model to DTO
-            var regionDto = new RegionDto
-            {
-                Id = regionDomainModel.Id,
-                Code = regionDomainModel.Code,
-                Name = regionDomainModel.Name,
-                RegionImageUrl = regionDomainModel.RegionImageUrl
-            };
-
+            var regionDto = mapper.Map<RegionDto>(regionDomainModel);
             return Ok(regionDto);
         }
 
@@ -145,13 +109,7 @@ namespace USTrails.API.Controllers
 
             //return deleted region back
             // Map Domain Model to DTO
-            var regionDto = new RegionDto
-            {
-                Id = regionDomainModel.Id,
-                Code = regionDomainModel.Code,
-                Name = regionDomainModel.Name,
-                RegionImageUrl = regionDomainModel.RegionImageUrl
-            };
+            var regionDto = mapper.Map<RegionDto>(regionDomainModel);
 
             return Ok(regionDto);
         }

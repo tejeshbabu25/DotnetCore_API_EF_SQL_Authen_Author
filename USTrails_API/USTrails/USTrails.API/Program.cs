@@ -13,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<USTrailsDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("USTrailsConnectionString")));
 builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>(); // Replace with InMemoryRegionRepository if we have to switch the implementation to InMemory database
+builder.Services.AddScoped<ITrailRepository, SQLTrailRepository>();
 builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 var app = builder.Build();
 

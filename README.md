@@ -77,4 +77,17 @@ Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server,
 - Map DTOs and Domain Models and Vice-versa in ASP.Net Core application
 - Install Automapper from Nuget manager
 - create mapping profiles
+- used AutoMapper.Extensions.Microsoft.DependencyInjection package from nuget
  
+# Seeding Data using EntityFramework Core
+- from USTrailsDbContext class
+- add regions and difficulties to modelbuilder after adding some values to it
+- Open Nuget package manager console , run below commands
+- 1. Add-Migrations "Seed regions and difficulties"
+- 2. Update-Database
+- this will push data into regions and difficulties tables on SQL server
+
+# Navigation properties 
+- which allow us to navigate from one entity/domain model to another
+- eg. trail has difficulty and region as navigation properties
+- on the dbcontext method getting data from db, use Include("Difficulty").Include("Region") to get the foreigh key value of the related/navigation tables

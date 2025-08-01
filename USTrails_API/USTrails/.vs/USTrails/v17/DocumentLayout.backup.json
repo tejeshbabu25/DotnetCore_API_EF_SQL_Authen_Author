@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\controllers\\trailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\controllers\\trailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\repositories\\sqltrailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\repositories\\sqltrailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\repositories\\itrailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\repositories\\itrailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\models\\dto\\updatetrailrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\models\\dto\\updatetrailrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\models\\domain\\trail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\models\\domain\\trail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|c:\\tejesh_development\\dotnet_core_api_ef\\dotnetcore_api_ef_sql_authen_author\\ustrails_api\\ustrails\\ustrails.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244CD81-0662-4656-A0DD-888A7552ECDF}|USTrails.API\\USTrails.API.csproj|solutionrelative:ustrails.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "UpdateTrailRequestDto.cs",
+              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\DTO\\UpdateTrailRequestDto.cs",
+              "RelativeDocumentMoniker": "USTrails.API\\Models\\DTO\\UpdateTrailRequestDto.cs",
+              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\DTO\\UpdateTrailRequestDto.cs",
+              "RelativeToolTip": "USTrails.API\\Models\\DTO\\UpdateTrailRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T04:41:18.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AutoMapperProfiles.cs",
               "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Mappings\\AutoMapperProfiles.cs",
               "RelativeDocumentMoniker": "USTrails.API\\Mappings\\AutoMapperProfiles.cs",
               "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Mappings\\AutoMapperProfiles.cs",
               "RelativeToolTip": "USTrails.API\\Mappings\\AutoMapperProfiles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T05:08:24.507Z",
+              "WhenOpened": "2025-08-01T04:10:03.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Program.cs",
+              "RelativeDocumentMoniker": "USTrails.API\\Program.cs",
+              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Program.cs",
+              "RelativeToolTip": "USTrails.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T04:06:48.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLTrailRepository.cs",
+              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Repositories\\SQLTrailRepository.cs",
+              "RelativeDocumentMoniker": "USTrails.API\\Repositories\\SQLTrailRepository.cs",
+              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Repositories\\SQLTrailRepository.cs",
+              "RelativeToolTip": "USTrails.API\\Repositories\\SQLTrailRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAC8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T04:03:57.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITrailRepository.cs",
+              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Repositories\\ITrailRepository.cs",
+              "RelativeDocumentMoniker": "USTrails.API\\Repositories\\ITrailRepository.cs",
+              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Repositories\\ITrailRepository.cs",
+              "RelativeToolTip": "USTrails.API\\Repositories\\ITrailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T04:02:55.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Trail.cs",
+              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\Domain\\Trail.cs",
+              "RelativeDocumentMoniker": "USTrails.API\\Models\\Domain\\Trail.cs",
+              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Models\\Domain\\Trail.cs",
+              "RelativeToolTip": "USTrails.API\\Models\\Domain\\Trail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T03:58:50.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegionsController.cs",
-              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Controllers\\RegionsController.cs",
-              "RelativeDocumentMoniker": "USTrails.API\\Controllers\\RegionsController.cs",
-              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Controllers\\RegionsController.cs",
-              "RelativeToolTip": "USTrails.API\\Controllers\\RegionsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA6wCYAAAAAAAAAAAAAAA==",
+              "Title": "TrailsController.cs",
+              "DocumentMoniker": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Controllers\\TrailsController.cs",
+              "RelativeDocumentMoniker": "USTrails.API\\Controllers\\TrailsController.cs",
+              "ToolTip": "C:\\Tejesh_Development\\DotNet_Core_API_EF\\DotnetCore_API_EF_SQL_Authen_Author\\USTrails_API\\USTrails\\USTrails.API\\Controllers\\TrailsController.cs",
+              "RelativeToolTip": "USTrails.API\\Controllers\\TrailsController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAjwFEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T05:07:52Z",
+              "WhenOpened": "2025-08-01T03:48:20.14Z",
               "EditorCaption": ""
             }
           ]

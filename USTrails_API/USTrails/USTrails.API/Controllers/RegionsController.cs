@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using System.Reflection.Metadata.Ecma335;
+using USTrails.API.CustomActionFilters;
 using USTrails.API.Data;
 using USTrails.API.Models.Domain;
 using USTrails.API.Models.DTO;
@@ -63,6 +64,7 @@ namespace USTrails.API.Controllers
         // POST to create a new region
         // POST : api/regions
         [HttpPost]
+        [ValidateModel]
         public async Task<IActionResult> Create([FromBody] AddRegionRequestDto addRegionRequestDto)
         {
             // Map DTO to Domain Model

@@ -91,3 +91,13 @@ Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server,
 - which allow us to navigate from one entity/domain model to another
 - eg. trail has difficulty and region as navigation properties
 - on the dbcontext method getting data from db, use Include("Difficulty").Include("Region") to get the foreigh key value of the related/navigation tables
+
+# Validations in ASP.NET Core Web API
+- Option 1 : 
+-  Model Validations using Data Annotations built into ASP.NET Core
+- Use annotations like Required,MinLength,Maxlength, Length etc on Model classes
+- then in controller use ModelState.IsValid to validate 
+- Option 2 :
+- using a custom Action filter
+- create a new call such as ValidateModelAttribute and override ActionFilterAttribute
+- then instead of Model.IsValid lines of code to check, just decorate the controller method with [ValidateModel] attribute
